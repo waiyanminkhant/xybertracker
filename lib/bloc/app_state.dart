@@ -13,3 +13,11 @@ class AppStateLoggedIn extends AppState {
   @override
   List<Object?> get props => [isLoading, successful];
 }
+
+class AppStateLoggedOut extends AppState {
+  AppStateLoggedOut({required isLoading, required sucessful})
+      : super(isLoading: isLoading, successful: sucessful);
+
+  @override
+  List<Object?> get props => [isLoading, successful];
+}

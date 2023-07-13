@@ -5,6 +5,8 @@ import 'package:flutter/services.dart';
 import 'package:xybertracker/firebase_options.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
+import 'bloc/app_bloc.dart';
+
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);

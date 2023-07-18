@@ -8,6 +8,7 @@ abstract class AppEvent extends Equatable {
 class AppEventRegister extends AppEvent {
   final String email;
   final String password;
+
   const AppEventRegister({required this.email, required this.password});
 
   @override
@@ -18,6 +19,7 @@ class AppEventRegister extends AppEvent {
 class AppEventLogin extends AppEvent {
   final String email;
   final String password;
+
   const AppEventLogin({required this.email, required this.password});
 
   @override
@@ -27,6 +29,7 @@ class AppEventLogin extends AppEvent {
 @immutable
 class AppEventResetPassword extends AppEvent {
   final String email;
+
   const AppEventResetPassword({required this.email});
 
   @override

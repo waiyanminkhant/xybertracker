@@ -67,7 +67,8 @@ class DefaultFirebaseOptions {
     messagingSenderId: '549474370704',
     projectId: 'kyat-keeper',
     storageBucket: 'kyat-keeper.appspot.com',
-    iosClientId: '549474370704-3lvgcfc7ou7o9cpde8p4lfbda91jnbhg.apps.googleusercontent.com',
+    iosClientId:
+        '549474370704-3lvgcfc7ou7o9cpde8p4lfbda91jnbhg.apps.googleusercontent.com',
     iosBundleId: 'com.waiyanminkhant.xybertracker',
   );
 
@@ -77,7 +78,8 @@ class DefaultFirebaseOptions {
     messagingSenderId: '549474370704',
     projectId: 'kyat-keeper',
     storageBucket: 'kyat-keeper.appspot.com',
-    iosClientId: '549474370704-69mnu7h0t9o3t26mh3ejak2mitfn31ov.apps.googleusercontent.com',
+    iosClientId:
+        '549474370704-69mnu7h0t9o3t26mh3ejak2mitfn31ov.apps.googleusercontent.com',
     iosBundleId: 'com.waiyanminkhant.xybertracker.RunnerTests',
   );
 }

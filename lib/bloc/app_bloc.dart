@@ -9,7 +9,7 @@ part 'app_event.dart';
 part 'app_state.dart';
 
 class AppBloc extends Bloc<AppEvent, AppState> {
-  AppBloc() : super(AppStateLoggedOut(isLoading: true, sucessful: false)) {
+  AppBloc() : super(AppStateLoggedOut(isLoading: false, sucessful: false)) {
     on<AppEventLogin>((event, emit) async {
       emit(AppStateLoggedOut(isLoading: true, sucessful: false));
       try {

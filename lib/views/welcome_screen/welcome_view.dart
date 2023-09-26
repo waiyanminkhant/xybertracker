@@ -18,17 +18,17 @@ class welcomeView extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Lottie.asset('lib/assets/splash_logo.json',
+              Lottie.asset('lib/assets/money.json',
                   width: 300, fit: BoxFit.fill, reverse: true),
               const Text(
-                '420 Expense Tracker',
+                'Expense Tracker',
                 style: TextStyle(fontSize: 32, fontWeight: FontWeight.bold),
               ),
               const SizedBox(
-                height: 20,
+                height: 5,
               ),
               Text(
-                'A tracker for individual expenses be available \nin a different version',
+                'A tracker for individual expenses',
                 textAlign: TextAlign.center,
                 style: TextStyle(
                     color: Colors.grey.shade500, fontWeight: FontWeight.bold),
@@ -46,7 +46,7 @@ class welcomeView extends StatelessWidget {
                       Navigator.push(
                           context,
                           PageTransition(
-                              child: EmailView(),
+                              child: RegistrationView(),
                               type: PageTransitionType.rightToLeftWithFade,
                               duration: Duration(microseconds: 250)));
                     },
